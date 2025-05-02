@@ -26,9 +26,10 @@ A modern, responsive web application for booking doctor appointments, featuring 
 - **Icons**: Heroicons or Font Awesome
 
 
-```bash
+
 ## 📁 Project Structure
 
+```text
 Doctor-Appointment-App/
 ├── public/
 │   └── favicon.svg
