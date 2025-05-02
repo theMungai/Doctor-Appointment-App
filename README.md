@@ -25,13 +25,42 @@ A modern, responsive web application for booking doctor appointments, featuring 
 - **Form Handling**: react-hook-form / Formik (recommended)
 - **Icons**: Heroicons or Font Awesome
 
----
 
+```bash
+## 📁 Project Structure
 
-<pre> ```text Doctor-Appointment-App/ ├── public/ │ └── favicon.svg ├── src/ │ ├── assets/ # Images, icons, etc. │ ├── components/ # Reusable UI components │ │ ├── common/ # Buttons, Input, Navbar, Footer, etc. │ │ ├── landing/ # Hero, Features, etc. │ │ ├── admin/ # Sidebar, DashboardWidgets, Tables │ │ └── blog/ # BlogCard, BlogList │ ├── pages/ # Route-level components (pages) │ │ ├── LandingPage.jsx │ │ ├── ServicesPage.jsx │ │ ├── ContactUsPage.jsx │ │ ├── HelpPage.jsx │ │ ├── BlogsPage.jsx │ │ ├── SignUpPage.jsx │ │ ├── SignInPage.jsx │ │ └── AdminPanel.jsx │ ├── routes/ # React Router routes │ │ └── AppRoutes.jsx │ ├── hooks/ # Custom hooks │ ├── utils/ # Utility functions │ ├── context/ # Context API providers │ ├── App.jsx │ ├── main.jsx │ └── index.css # Tailwind CSS entry ├── tailwind.config.js ├── postcss.config.js ├── package.json └── vite.config.js ``` </pre>
-
-
----
+Doctor-Appointment-App/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── assets/                # Images, icons, etc.
+│   ├── components/            # Reusable UI components
+│   │   ├── common/            # Buttons, Input, Navbar, Footer, etc.
+│   │   ├── landing/           # Hero, Features, etc.
+│   │   ├── admin/             # Sidebar, DashboardWidgets, Tables
+│   │   └── blog/              # BlogCard, BlogList
+│   ├── pages/                # Route-level components (pages)
+│   │   ├── LandingPage.jsx
+│   │   ├── ServicesPage.jsx
+│   │   ├── ContactUsPage.jsx
+│   │   ├── HelpPage.jsx
+│   │   ├── BlogsPage.jsx
+│   │   ├── SignUpPage.jsx
+│   │   ├── SignInPage.jsx
+│   │   └── AdminPanel.jsx
+│   ├── routes/               # React Router routes
+│   │   └── AppRoutes.jsx
+│   ├── hooks/                # Custom hooks
+│   ├── utils/                # Utility functions
+│   ├── context/              # Context API providers
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css             # Tailwind CSS entry
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── vite.config.js
+```
 
 ## 📦 Getting Started
 
